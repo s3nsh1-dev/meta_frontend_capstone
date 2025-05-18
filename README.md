@@ -1,12 +1,13 @@
-# React + Vite
+# The Site Looks like this. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/1027d643-7757-4d94-9074-d0b4aef7f459)
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/f2eb3b9b-80b8-43f1-9e3b-4606bd703bf2)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/09b64987-0afe-4844-8a23-0de189e63c2e)
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/e2520cbe-522e-4fb0-86b4-4b563a0c7a7f)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![image](https://github.com/user-attachments/assets/2c04e418-2296-42ba-8dce-ef2683786d18)
+
+# This project is react 19 implentation of a Little Lemon Restaurant project. Design credit goes to : https://github.com/shashankdoeshisstuff/Little-Lemon-Restaurant-Website
