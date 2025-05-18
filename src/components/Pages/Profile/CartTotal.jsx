@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
-import './CartTotal.css'
-import { DataContext } from '../../../data/DataContext'
+import { useContext } from "react";
+import DataContext from "../../../data/DataContext";
+import "./CartTotal.css";
 
-const CartTotal = ({Cart}) => {
+const CartTotal = ({ Cart }) => {
   /* data context */
-  const {menu} = useContext(DataContext)
+  const { menu } = useContext(DataContext);
 
   const taxPrice = 0;
 
@@ -12,41 +12,42 @@ const CartTotal = ({Cart}) => {
     let total = 0;
 
     Cart.forEach((item) => {
-      const matchingDish = menu.find(dish => dish['id'] === item['id']);
-      const price = parseFloat(matchingDish['dish-price']);
-      const quantity = parseFloat(item['dish-quantity']);
+      const matchingDish = menu.find((dish) => dish["id"] === item["id"]);
+      const price = parseFloat(matchingDish["dish-price"]);
+      const quantity = parseFloat(item["dish-quantity"]);
 
-
-      if(!isNaN(price) && !isNaN(quantity)) {
+      if (!isNaN(price) && !isNaN(quantity)) {
         total += price * quantity;
       }
-    })
+    });
 
     return total.toFixed(2);
-  }
+  };
 
   return (
-    <section className='cart-total-container'>
-      <div className='cart-total-box'>
-        <span className='cart-total-head'>Order summary</span>
-        <div className='cart-total-sub-box'>
+    <section className="cart-total-container">
+      <div className="cart-total-box">
+        <span className="cart-total-head">Order summary</span>
+        <div className="cart-total-sub-box">
           <span>Subtotal</span>
           <span>$ {totalAmount()}</span>
         </div>
         <hr />
-        <div className='cart-total-sub-box'>
+        <div className="cart-total-sub-box">
           <span>Delivery</span>
           <span>$ {taxPrice}</span>
         </div>
         <hr />
-        <div className='cart-total-sub-box'>
-          <span className='cart-total-head'>Order total</span>
-          <span className='cart-total-price'>$ {parseFloat(taxPrice) + parseFloat(totalAmount())}</span>
+        <div className="cart-total-sub-box">
+          <span className="cart-total-head">Order total</span>
+          <span className="cart-total-price">
+            $ {parseFloat(taxPrice) + parseFloat(totalAmount())}
+          </span>
         </div>
       </div>
-      <button className='cart-total-btn'>Checkout</button>
+      <button className="cart-total-btn">Checkout</button>
     </section>
-  )
-}
+  );
+};
 
-export default CartTotal
+export default CartTotal;

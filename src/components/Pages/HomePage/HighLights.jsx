@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
-import { DataContext } from "../../../data/DataContext";
-import "./HighLights.css";
+import DataContext from "../../../data/DataContext";
 import { Link } from "react-router-dom";
 import DishCard from "../Page-components/DishCard";
 import OrderPopUp from "../Page-components/OrderPopUp";
+import "./HighLights.css";
 
 const HighLights = () => {
   /* order pop up */

@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { DataContext } from "../../../data/DataContext";
+import { useContext } from "react";
+import DataContext from "../../../data/DataContext";
 import "./DishCard.css";
 import { MdDeliveryDining } from "react-icons/md";
 
