@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&family=Markazi+Text:wght@400;500;600;700&display=swap");
 
 :root {
-  --primaryColor: #495e57;
-  --secondaryColor: #f4ce14;
-  --greyColor: #e3e3e3;
+  --primaryColor: #2a5298;
+  --secondaryColor: #f67280;
+  --greyColor: #f8f8f8;
   --karla: "Karla", sans-serif;
   --markazi: "Markazi Text", serif;
   --margin: 0 20px 0 20px;

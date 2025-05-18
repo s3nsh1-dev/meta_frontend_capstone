@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-.order-popup-container{
+.order-popup-container {
   padding: 20px;
 }
 
@@ -26,15 +26,15 @@
 .order-popup-close-icon {
   position: absolute;
   color: var(--primaryColor);
-  font-size:32px;
+  font-size: 32px;
   left: 94%;
   top: 1%;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .order-popup-close-icon:hover {
   color: var(--secondaryColor);
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .order-card-image {
@@ -44,12 +44,12 @@
   border-radius: 16px 16px 0 0;
 }
 
-.order-card-item-details{
+.order-card-item-details {
   padding: 20px;
   display: grid;
 }
 
-.order-card-qty-price{
+.order-card-qty-price {
   display: grid;
   grid-template-columns: 40px 120px auto;
   align-items: center;
@@ -58,10 +58,10 @@
   font-size: 18px;
   font-weight: 500;
 }
-.order-card-item-qty-label{
+.order-card-item-qty-label {
   color: var(--primaryColor);
 }
-.order-card-item-qty-input{
+.order-card-item-qty-input {
   color: var(--primaryColor);
   font-family: var(--karla);
   font-size: 18px;
@@ -74,15 +74,15 @@
   border: 2px solid var(--primaryColor);
   outline: none;
 }
-.order-card-qty-price{
-  color: #FF5C00;
+.order-card-qty-price {
+  color: #ff5c00;
 }
 
-.order-card-btn-box{
+.order-card-btn-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.order-card-btn{
+.order-card-btn {
   font-family: var(--karla);
   font-size: 18px;
   display: flex;
@@ -92,29 +92,29 @@
   background: var(--primaryColor);
   color: white;
   border: none;
-  transition: .2s ease;
+  transition: 0.2s ease;
   width: 100%;
   height: 100%;
 }
-.order-card-btn-left{
+.order-card-btn-left {
   border-radius: 0 0 0 16px;
 }
-.order-card-btn-right{
+.order-card-btn-right {
   border-radius: 0 0 16px 0;
 }
-.order-card-btn-icon{
+.order-card-btn-icon {
   font-size: 24px;
 }
 
-.order-card-btn:hover{
+.order-card-btn:hover {
   background: var(--secondaryColor);
   color: var(--primaryColor);
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
-.order-card-btn-box-profile{
+.order-card-btn-box-profile {
   display: grid;
   grid-template-columns: 1fr;
 }
-.order-card-btn-order-profile{
+.order-card-btn-order-profile {
   border-radius: 0 0 16px 16px;
 }
