@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import "./Nav.css";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import "./Nav.css";
 
 const Nav = () => {
   const [hamValue, setHamValue] = useState(false);
