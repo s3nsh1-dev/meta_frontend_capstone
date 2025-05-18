@@ -10,4 +10,5 @@
 
 ![image](https://github.com/user-attachments/assets/2c04e418-2296-42ba-8dce-ef2683786d18)
 
-# This project is react 19 implentation of a Little Lemon Restaurant project. Design credit goes to : https://github.com/shashankdoeshisstuff/Little-Lemon-Restaurant-Website
+# This project is react 19 implentation of a Little Lemon Restaurant project. 
+creadit where credit is due XD
