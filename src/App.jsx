@@ -2,7 +2,8 @@ import "./App.css";
 import Header from "./components/Global/Header";
 import Footer from "./components/Global/Footer";
 import Main from "./components/Global/Main";
-import { DataProvider, SetDataProvider } from "./data/DataContext";
+import { DataProvider } from "./data/DataContext";
+import { SetDataProvider } from "./data/SetDataContext";
 
 const MainApp = () => {
   return (
